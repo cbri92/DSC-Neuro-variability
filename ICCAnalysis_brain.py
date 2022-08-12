@@ -3,6 +3,9 @@
 Created on Tue Jul 19 14:37:53 2022
 
 @author: Caterina Brighi
+
+This script evaluates inter-rater repeatability between images of the same subject generated from multiple raters.
+Repeatability is assessed via ICC(2,K) based on a mean-rating (k= 3) from multiple raters, absolute-agreement, 2-way random effects model. 
 """
 #%% Import functions 
 
