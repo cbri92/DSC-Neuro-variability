@@ -3,6 +3,21 @@
 Created on Mon Jan 11 14:52:43 2021
 
 @author: Caterina Brighi
+
+This script calculates repeatability metrics in a ROI between images of the same subject genrated by multiple raters.
+Voxel-wise metrics include: 'Mean intensity in ROI rater1', 'Mean intensity in ROI rater2', 
+                            'Mean intensity in ROI rater3', 'Between voxels variance', 'Within voxels variance', 
+                            'ROI ICC', 'Within voxel CoV', 'Repeatability coefficient', 'RC Upper', 'RC Lower'
+ROI-wise metrics include: 'BMS: Between subjects mean'
+                          'WMS: Within subject mean'
+                          'tSD: Total standard deviation'
+                          'bSD: Between subjects standard deviation'
+                          'wSD: Within subject standard deviation'
+                          'RC: Repeatibility coefficient'
+                          'RC Lower: Lower 95% CI'
+                          'RC Upper: Upper 95% CI'
+                          'wCV: Within subject coefficient of variation'
+                          'ICC: intra-correlation coefficient'
 """
 
 
